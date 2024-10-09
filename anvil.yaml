@@ -1,9 +1,15 @@
 allow_embedding: false
-name: Classic 1
-package_name: Classic_1
+metadata: {description: Anvil Extras, title: Anvil Extras}
+name: Anvil_Extras
+package_name: Anvil_Extras
 runtime_options:
   client_version: '3'
   server_spec: {base: python310-minimal}
   server_version: python3-sandbox
   version: 2
-services: []
+services:
+- client_config: {}
+  server_config: {}
+  source: /runtime/services/tables.yml
+startup: null
+startup_form: null
