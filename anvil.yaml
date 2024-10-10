@@ -2,7 +2,7 @@ allow_embedding: false
 dependencies:
 - dep_id: dep_dkxaajjrrcun6
   resolution_hints: {app_id: C6ZZPAPN4YYF5NVJ, name: Anvil Extras, package_name: anvil_extras}
-  version: {branch: published}
+  version: {version_tag: v2.0.0}
 metadata: {description: Anvil ExtrasDemo, title: Anvil ExtrasDemo}
 name: Anvil_Extrasdemo
 package_name: Anvil_Extrasdemo
