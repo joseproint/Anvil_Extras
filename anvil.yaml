@@ -1,7 +1,11 @@
 allow_embedding: false
-metadata: {description: Anvil Extras, title: Anvil Extras}
-name: Anvil_Extras
-package_name: Anvil_Extras
+dependencies:
+- dep_id: dep_b9pemb9so7qi
+  resolution_hints: {app_id: C6ZZPAPN4YYF5NVJ, name: Anvil Extras, package_name: anvil_extras}
+  version: {version_tag: v2.7.1}
+metadata: {description: Anvil ExtrasDemo, title: Anvil ExtrasDemo}
+name: Anvil_Extrasdemo
+package_name: Anvil_Extrasdemo
 runtime_options:
   client_version: '3'
   server_spec: {base: python310-minimal}
